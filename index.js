@@ -1,10 +1,4 @@
 
-
-// $(".btn")[ran].addClass(".pressed");
-
-// setTimeout(function() {
-//     $(".btn")[ran].removeClass(".pressed");
-// }, 100);
 var userClickedPattern = [];
 
 var buttonColors = ["red", "blue", "green", "yellow"];
@@ -87,12 +81,3 @@ function animatePress(color) {
         $("#"+color).removeClass("pressed");
     }, 100);
 }
-
-// while(true){
-//     nextSequence();
-//     if(clickId === gamePattern[i]){
-//         continue;
-//     }
-//     else
-//     // show game over and if pressed any key to reset the game
-// }
